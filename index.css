@@ -1,0 +1,169 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 00;
+  display: flex;
+  place-items: center;
+  min-width: 100vh;
+  min-height: 100vh;
+  background-image: url("./Shinobipics/sumi-e.webp");
+}
+
+h1 {
+  font-size: 4.5em;
+  line-height: 1.1;
+  position:absolute;
+  top: 120px;
+  left: 400px;
+  color:#ab3c5a;
+  opacity: 1.0;
+}
+
+p {
+  position:relative;
+  left: 1050px;
+  bottom: -180px;
+  font-family: 'Sekuya', system-ui;
+  color:darkslategray
+}
+
+
+.add-row {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  background-color:#ab3c5a;
+  color: darkslategray;
+  font-family:'Sekuya', system-ui;
+  border-color: rgb(252, 252, 252);
+  position:fixed;
+  margin-left:0px;
+  top: 0px;
+  width: 303px;
+  z-index: 4
+}
+
+.add-button {
+  background-color: burlywood;
+  color: darkslategray;
+  font-size: 70px;
+  height: 1000px;
+  position: fixed;
+  bottom: 0px;
+  background-image: url("./public/Shinobipics/seppuku.jpg");
+  z-index: 2;
+}
+
+.del-button {
+  color: #ab3c5a;
+  background-color: transparent;
+  position:sticky;
+  top: 50px;
+  right: 300px;
+  font-size: 15px; 
+  z-index: 3;
+  
+}
+
+.shinMask {
+  width: 600px;
+  height: auto;
+  position: fixed;
+  right: 600px;
+  top: 0px;
+  opacity: 0.09;
+  z-index: 1;
+}
+
+.shinMask2 {
+  width: 600px;
+  height: auto;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  opacity: 0.09;
+  z-index: 1;
+}
+.shinMask3 {
+  width: 600px;
+  height: auto;
+  position: fixed;
+  left: 480px;
+  top: 0px;
+  margin-left: -360px;
+  opacity: 0.09;
+  z-index: 1;
+}
+
+.bird {
+  position: absolute;
+  right: 200px;
+  bottom: 100px;
+  
+  opacity: 0.8;
+}
+
+.bird2 {
+  position: absolute;
+  bottom:50px;
+  height: 400px;
+  right:250px;
+  opacity: 0.7;
+  overflow: hidden;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
